@@ -5,11 +5,13 @@
 I wanted to learn more about pytorch. I'm fairly familar with tensorflow, but had never used pytorch before. So I completed a Pytorch tutorial I found online: https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
 (the "60 minute blitz" is deceiving, this took me about 4 hours due to the copious amounts of notes and things I had to look up)
 
+After learning, built my own model from scratch that took 7ish hours.
+
 ## Walk-through
 
 The first section of my Hack-a-thing is dedicated to this tutorial - all the basic notes about how Pytorch and tensors work and then a basic CNN that classifies images as `classes = ('plane', 'car', 'bird', 'cat','deer', 'dog', 'frog', 'horse', 'ship', 'truck')`.
 
-The second section is a multi-class classifier I built myself in pytorch. It classifies bonds using 6 features to 1 of 21 bond rating classes. I acheived an accuracy of 24% with very little hyper parameter tuning, but this may be because of the size of the dataset and the limited featureset. 23% is still well-above base-line accuracy so fairly satisfied with this outcome for a firs Pytorch attempt.
+The second section is a multi-class classifier I built myself in pytorch. It classifies bonds using 6 features to 1 of 21 bond rating classes. I acheived an accuracy of 24% with very little hyper parameter tuning, but this may be because of the size of the dataset and the limited featureset. 23% is still well-above base-line accuracy so fairly satisfied with this outcome for a first Pytorch attempt.
 
 ## What I learned
 
